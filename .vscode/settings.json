@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        ".develop.env": "properties",
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "math.h": "c",
+        "time.h": "c"
+    },
+    "cSpell.language": "en-us,de",
+    "cSpell.words": [
+        "ausgabe",
+        "ergebnis",
+        "Strg",
+        "zeile"
+    ],
+    "editor.formatOnSave": true,
+    "C_Cpp.default.compilerPath": "cl.exe"
+}
