@@ -23,7 +23,7 @@ int main()
     printf("Fliesskommazahl mit Formatangabe: %.2f \n", f);
 
     char s[100];
-    // Ihr Code hier
+    scanf("%s", s);
     printf("Zeichenkette: %s \n", s);
     return 0;
 }
