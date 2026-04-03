@@ -17,15 +17,15 @@ int main()
     int Gewicht, Groeße;
     float bmi_value;
 
-    printf("Eingabe in Gramm: ");
+    // printf("Eingabe in Gramm: ");
     scanf("%i", &Gewicht);
-    printf("Eingabe in Zentimeter: ");
+    // printf("Eingabe in Zentimeter: ");
     scanf("%i", &Groeße);
 
     float kg = Gewicht / 1000.0f;
     float m = Groeße / 100.0f;
 
     bmi_value = kg / (m * m);
-    printf("Der BMI liegt bei: %.2f !\n", bmi_value);
+    printf("Der BMI liegt bei: %.2f!\n", bmi_value);
     return 0;
 }
