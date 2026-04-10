@@ -9,7 +9,7 @@ int main()
     int16_t variable16;  // 16 Bit Variable
     int32_t variable32;  // 32 Bit Variable
     int64_t variable64;  // 64 Bit Variable
-
+                         // Nicht intx (wegen library) sondern die Datentypentabelle aus der Vorlesung! char, long long usw.
     // Belegten Speicher ausgeben
     printf("Belegter Speicher: %zu Bytes\n", sizeof(variable8));
     printf("Belegter Speicher: %zu Bytes\n", sizeof(variable16));

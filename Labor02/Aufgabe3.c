@@ -23,7 +23,7 @@ int main()
     printf("Fliesskommazahl mit Formatangabe: %.2f \n", f);
 
     char s[100];
-    scanf("%s", s);
+    scanf("%s", s);  // s wegen String, String in C eher wie Array von Zeichen
     printf("Zeichenkette: %s \n", s);
     return 0;
 }
