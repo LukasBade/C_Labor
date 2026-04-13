@@ -3,7 +3,7 @@
 
 int row, col;
 
-int main()
+int main(int argc, char* argv[])
 {
     scanf("%i %i", &row, &col);
 
@@ -11,7 +11,14 @@ int main()
     {
         for (int j = 0; j < col; j++)
         {
-            printf("*");
+            if (i == 0 || i == row - 1)  // || = OR
+                printf("*");
+
+            else if (j == 0 || j == col - 1)
+                printf("*");
+
+            else
+                printf(" ");
         }
 
         printf("\n");
