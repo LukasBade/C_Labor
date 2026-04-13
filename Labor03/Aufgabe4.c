@@ -14,5 +14,7 @@ int main()
         i++;
     }
     printf("result: %d\n", counter);
+    // counter = counter + i (3 before break, i++ also erst nach nächster Iteration 4)
+    // break skips the counter += step
     return 0;
 }

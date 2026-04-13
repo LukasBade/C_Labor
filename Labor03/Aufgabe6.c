@@ -4,7 +4,7 @@ int main()
 {
     int n;
     printf("Anzahl der Sterne: ");
-    scanf("%d", &n);
+    scanf("%i", &n);
 
     for (int i = 0; i < n; i++)
     {
