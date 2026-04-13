@@ -19,7 +19,7 @@ int main()
             else if (i == j)  // diagonale
                 printf("*");
 
-            else if (i + j == i - 1)  // diagonale
+            else if (i + j == n - 1)  // diagonale
                 printf("*");
 
             else
