@@ -6,7 +6,7 @@ Eine Task starten geht auch mit "Strg + Shift + B"
 Falls Fehlermeldung "cmake: command not found" erscheint, dann ist cmake nicht installiert. 
 
 Zum installieren im Terminal in VSCode (WSL/Ubuntu) zwei Befehle eingeben:
-- sudo apt update
+- esudo apt updat
 - sudo apt install cmake
 Anschließend Schritt #1 erneut ausführen
 
