@@ -14,5 +14,6 @@
         "zeile"
     ],
     "editor.formatOnSave": true,
-    "C_Cpp.default.compilerPath": "cl.exe"
+    "C_Cpp.default.compilerPath": "cl.exe",
+    "cmake.sourceDirectory": "D:/Projects/PGM-Labor-VSProjekt/Labor04_Aufgabe_Module"
 }
