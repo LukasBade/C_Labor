@@ -13,7 +13,7 @@ int main(int argc, char* argv[])
     printf("%d\n", *ptr);
 
     **ptrptr = 2;
-    printf("%d\n", **ptrptr);
+    printf("%d\n", i);
 
     return 0;
 }
